@@ -42,6 +42,5 @@
         - 로컬 배포
 
 6. npmjs.com의 npm registry에 패키지 배포(원격배포)
-
 7. helloweb-ex01: 웹애플리케이션 만들어 보기(express 프레임 x)
-8. helloweb-ex01: 웹애플리케이션 만들어 보기(express 프레임 o)
+8. helloweb-ex02: 웹애플리케이션 만들어 보기(express 프레임 o)
