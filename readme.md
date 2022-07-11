@@ -31,7 +31,10 @@
     1. project 생성(mkdir)
     2. project 이동(cd)
     3. project 초기화: project manifest file(package.json 생성)
-        - $[project-ex02] npm init -y
+        - $[project-ex02] npm init -y (default, -y 없을 시 입력해야함)
 
 
 5. Module
+    1. 코어 모듈 : node에서 제공하는 모듈(fs, os, ...)
+    2. 파일 모듈 : 파일 경로로 불러와서 모듈만의 함수, 객체를 사용한다.
+    3. npm 모듈 : npm을 통해서 node_modules에 설치하고 사용하는 모듈
