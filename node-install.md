@@ -1,4 +1,4 @@
-# Python 3 Installation
+## Python3 Installation
 
 ### Mac
 
@@ -156,7 +156,8 @@
 		Python 3.7.6
 		```
     
-# 02. Node.js Installation
+
+## Node Installation
 
 ### Mac OS
  Mac에서의 Node는 대부분이 개발 환경을 위해서 설치될 것이다. 여러 버젼의 Node에서 개발할 경우 여러 버젼의 Node를 설치하고 개발 환경에 적용하는 것은 꽤 번거로운 작업이다. nvm은 이를 해결해 주는 굉장히 유용한 도구다. nvm을 설치하여 여러 버젼의 노드를 설치하도록 한다. 이는 Node 애플리케이션 운용 환경(주로 리눅스 또는 도커)에서 유용하다.
@@ -276,23 +277,20 @@
     
     ```
 
-2.	설치
-    v14.4.0을 설치할 것이다. /usr/local/kickscar/node-v14.4.0에 설치할 것이다.
+2. 설치
+   
 
     ```sh
-    wget https://nodejs.org/dist/v14.4.0/node-v14.4.0.tar.gz
-    tar xvfz node-v14.4.0.tar.gz
+    wget https://nodejs.org/dist/v16.15.1/node-v16.15.1-linux-x64.tar.gz
+    tar xvfz node-v16.15.1-linux-x64.tar.gz
     
-	cd node-v14.4.0
-	./configure --prefix=/usr/local/kickscar/node-v14.4.0
-    make && make install
-	
+    cp -R node-v16.15.1 /usr/local/douzone/node16.15.1
     ```
 
 3.	링크 작업
 
     ```sh
-    ln -s /usr/local/kickscar/node-v14.4.0 /usr/local/kickscar/node
+    ln -s /usr/local/dozuone/node16.15.1 /usr/local/dozuone/node
 	
     ```
 
@@ -300,7 +298,7 @@
 
     ```sh
     # node 
-    export PATH=$PATH:/usr/local/kickscar/node/bin
+    export PATH=$PATH:/usr/local/dozuone/node/bin
     ```
 
 5.	설정 적용 및 설치 확인
